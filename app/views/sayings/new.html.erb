@@ -1,0 +1,7 @@
+<h1>Holler Here!</h1>
+  <%= simple_form_for @saying do |f| %>
+    <%= f.input :holler %>
+    <%= f.input :author %>
+    <br />
+    <%= f.submit 'Holler!', class: 'btn btn-danger' %>
+  <% end %>

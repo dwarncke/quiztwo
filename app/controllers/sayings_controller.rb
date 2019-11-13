@@ -1,6 +1,6 @@
 class SayingsController < ApplicationController
   def index
-    @saying = Saying.first
+    @saying = Saying.new
   end
 
   def new
